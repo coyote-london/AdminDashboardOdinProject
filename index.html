@@ -10,22 +10,26 @@
 </head>
 <body>
     <div class="header" id="headerContainer">
-        <input type="text" class="header" id="headerInputSearch">
-        <h2 class="header" id="headerH2Name">Reid Jernigan</h2>
-        <div id="placeholder">Place HELD</div>
-        <p class="header" id="headerPHiThere">
-            Hi there,
-        </p>
-        <h2 class="header" id="headerH2AdminName">
-            Reid Jernigan @coyote-london
-        </h2>
-        <button type="button" class="header" id="headerButtonNew">
+        <div class="header" id="headerSearchContainer">
+            <input type="text" class="header" id="headerInputSearch">
+        </div>
+        <h4 class="header" id="headerH4Name">Reid Jernigan</h4>
+        <div class="header" id="headerNameCard">
+            <div id="placeholder">Place HELD</div>
+                <p class="header" id="headerPHiThere">
+                Hi there,
+            </p>
+            <h2 class="header" id="headerH2AdminName">
+                Reid Jernigan @coyote-london
+            </h2>    
+        </div>
+        <button type="button" class="headerButton" id="headerButtonNew">
             New
         </button>
-        <button type="button" class="header" id="headerButtonUpload">
+        <button type="button" class="headerButton" id="headerButtonUpload">
             Upload
         </button>
-        <button type="button" clas="header" id="headerButtonShare">
+        <button type="button" class="headerButton" id="headerButtonShare">
             Share
         </button>
     </div>
@@ -65,8 +69,78 @@
         </ul>    
     </div>
 
-    <div class="mainContent" id="mainContentContainer">
-        MAIN CONTENT
+    <div class="mainContentContainer">
+        <div class="main" id="mainProjectContainer">
+            <h3 class="main" id="mainH3YourProjects">
+                Your Projects
+            </h3>
+            <div class="main" class="projectCards" id="mainProjectCard1">
+                <h5>Project One</h5>
+            </div>
+            <div class="main" class="projectCards" id="mainProjectCard2">
+                <h5>Project Two</h5>                
+            </div>   
+            <div class="main" class="projectCards" id="mainProjectCard3">
+                <h5>Project Three</h5>
+
+            </div>   
+            <div class="main" id="mainProjectCard4">
+                <h5>Project Four</h5>
+            </div>   
+            <div class="main"  id="mainProjectCard5">
+                <h5>Project Five</h5>
+            </div>   
+            <div class="main" id="mainProjectCard6">
+                <h5>Project Six</h5>                
+            </div>      
+        </div>
+        <div class="main" id="mainAnnouncementsContainer">
+            <h3 class="main" id="mainH3Announements">
+                Announements
+            </h3>
+            <div class="main" id="mainAnnounementsContainerInside">
+                <div class="main" id="announcementCard1">
+                    <h6 class="main" id="mainH6SiteMaintenance">
+                        Site Maintenance
+                    </h6>
+                </div>
+                <div class="main" id="announcementCard2">
+                    <h6 class="main" id="mainH6CommunityShareDay">
+                        Community Share Day
+                    </h6>
+                </div>
+                <div class="main" id="announcementCard3">
+                    <h6 class="main" id="mainH6UpdatedPrivacyPolicy">
+                        Updated Privacy Policy
+                    </h6>
+                </div>    
+            </div>
+        </div>
+        <div class="main" id="mainTrendingContainer">
+            <h3 class="main" id="mainH3Trending">
+                Trending
+            </h3>
+            <div class="main" id="mainTrendingContainerInside">
+                <div class="main" id="trendingCard1">
+                    <div id="trendingPlaceholder1">$</div>
+                    <h6 class="main" id="mainH6Blank">
+                        @blank
+                    </h6>
+                </div>
+                <div class="main" id="trendingCard1">
+                    <div id="trendingPlaceholder2">$</div>
+                    <h6 class="main" id="mainH6Email">
+                        @email
+                    </h6>
+                </div>
+                <div class="main" id="trendingCard1">
+                    <div id="trendingPlaceholder3">$</div>
+                    <h6 class="main" id="mainH6AtHat">
+                        @atHat
+                    </h6>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
