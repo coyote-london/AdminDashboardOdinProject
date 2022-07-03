@@ -22,7 +22,7 @@ body {
 #headerSearchContainer {
     grid-column: 1/2;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
 }
 
@@ -35,18 +35,33 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     margin: 0rem;
+    max-height: 1.2rem;
+}
+
+
+
+#headerH4Container {
+    grid-column: 3/6;
+    margin-left: 6.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#headerProfileSymbol {
+    grid-column: 2/3;
+    margin-left: 0;
 }
 
 #headerH4Name {
-    grid-column: 3/5;
-    text-align: end;
-    margin: .5rem;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
+    margin-left: .2rem;
 }
 
 #headerNameCard {
     grid-column: 1/2;
     display: flex;
+    margin: 1rem;
 }
 
 #placeholder {
@@ -61,6 +76,7 @@ body {
     margin: 1.5rem;
     background-color: rgb(108, 94, 155);
     color: white;
+    border-radius: .7rem;
 }
 
 #headerH2AdminName {
@@ -200,6 +216,13 @@ body {
     display:grid;
     grid-template-columns: 1fr 2fr;
     gap: .5rem;
+    align-items: center;
+}
+
+#trendingProfile1,
+#trendingProfile2,
+#trendingProfile3 {
+    margin: 1rem;
 }
 
 #mainH6Email,
